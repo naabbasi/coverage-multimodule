@@ -1,19 +1,19 @@
 package edu.learn.backend;
 
 public class Backend {
-    public void create(){
-        System.out.println("Created");
+    public String create(){
+        return "Created";
     }
 
-    public void retrieve(){
-        System.out.println("Retrieved");
+    public String retrieve(){
+        return "Retrieved";
     }
 
-    public void update(){
-        System.out.println("Updated");
+    public String update(){
+        return "Updated";
     }
 
-    public void delete(){
-        System.out.println("Deleted");
+    public String delete(){
+        return "Deleted";
     }
 }
